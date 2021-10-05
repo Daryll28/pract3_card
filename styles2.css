@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: arial;
+  background-image: url(https://picsum.photos/seed/picsum/1080/720);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main {
+  margin: 2%;
+}
+
+.card {
+  width: 17%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin: 1%;
+  height: 20%;
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.des {
+  padding: 3px;
+  text-align: left;
+  background-color: rgb(63, 53, 53);
+  color: aliceblue;
+
+  padding-top: 20px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+button {
+  display:block
+  margin-left:auto
+  margin-right:auto
+  width:50%
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 9px;
+}
+button:hover {
+  background-color: rgb(4, 255, 242);
+  color: rgb(0, 0, 0);
+  transition: 0.8s;
+  cursor: pointer;
+}
+button {
+  
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 64, 255);
+  border-radius: 25%;
+  color: whitesmoke;
+  text-align: center;
+}
+img {
+  width: 300px;
+  height: 400px;
+}
+
+#button {
+  align-self: center;
+}
